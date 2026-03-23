@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.SearchBox {
+  padding: 20px;
+  background-color: rgb(243, 245, 247);
+}
+.Sbox {
+  display: flex;
+  justify-content: center;
+}
+
+.SearchBox input {
+  padding: 5px;
+  width: 400px;
+}
+.SearchBoxBtn button {
+  background-color: transparent;
+  border: none;
+}
+.SearchBox img {
+  padding: 1px;
+  cursor: pointer;
+}
+
+.SearchItemIcon button {
+  background-color: transparent;
+  border: none;
+}

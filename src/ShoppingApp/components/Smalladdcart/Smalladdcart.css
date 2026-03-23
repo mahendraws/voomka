@@ -1,0 +1,61 @@
+.Main-Box {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 500px;
+  height: 360px;
+  padding: 20px;
+  border: 1px solid #d0d2d3;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .main2-Container {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Main-Box {
+    margin: 10px 20px 20px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 380px;
+    height: 360px;
+    padding: 20px;
+    border: 1px solid #d0d2d3;
+  }
+  .View-btn button {
+    width: 340px !important;
+    margin-top: 20px;
+  }
+}
+
+.View-btn button {
+  width: 450px;
+  margin-top: 20px;
+}
+.Viewbtn01 button {
+  background-color: transparent;
+  border: 1px solid orangered;
+  padding: 10px;
+  color: orangered;
+}
+.Viewbtn01 button:hover {
+  background-color: orangered;
+  border: 1px solid orangered;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.Viewbtn02 button {
+  background-color: rgb(6, 145, 6);
+  border: 1px solid rgb(6, 145, 6);
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.Viewbtn02 button:hover {
+  background-color: transparent;
+  border: 1px solid rgb(6, 145, 6);
+  padding: 10px;
+  color: rgb(6, 145, 6);
+}

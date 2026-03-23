@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Heading-text {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.Thank-box {
+  background-color: rgb(5, 136, 29);
+  display: flex;
+}
+.Thank-box p {
+  margin-top: 19px;
+  font-size: 23px;
+  color: white;
+}
+
+/* ThankyouPayment section Start  */
+
+.main-payment-Box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.main-payment-Box p {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.main-payment-Box span {
+  font-size: 20px;
+  font-weight: 600;
+}
+/* ThankyouPayment section End  */
+
+/* Order Details page css start */
+.OrderDetails {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top: 50px;
+}
+table {
+  font-size: 20px;
+}
+/* Order Details page css start */
+@media screen and (max-width: 768px) {
+  .main-payment-Box {
+    flex-direction: column;
+  }
+}

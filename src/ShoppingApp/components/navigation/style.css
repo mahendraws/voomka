@@ -1,0 +1,124 @@
+/* Top heading css start */
+
+.MainHeading {
+  background-color: #04aa38;
+  height: 40px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.Heading-text p {
+  color: white;
+  font-size: 14px;
+  padding-top: 8px;
+  font-weight: 600;
+}
+
+.Heading-text a {
+  color: white;
+  background-color: #f87407;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Top heading css start */
+
+/* This is shop dropdwon menu Css start */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 230px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: 1px solid gainsboro;
+  margin-left: -170px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: rgb(249, 105, 9);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* This is shop dropdwon menu Css End */
+
+/* This is dropdwon Login menu css start */
+.DropdownMenu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: 1px solid gainsboro;
+  margin-left: -90px;
+}
+
+.items {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.items:hover {
+  background-color: #ddd;
+  color: rgb(249, 105, 9);
+}
+
+.DropdownMenu:hover .dropdown-content2 {
+  display: block;
+}
+
+/* This is dropdwon menu css End */
+
+/* All Icons Css Start  */
+.ALlIcons img {
+  width: 25px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+
+.menubg{
+  background-color: #09713a;
+}
+
+.dmenu{
+color:white;
+ background-color: #198754;
+}
+
+.navbar{
+  -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+  -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+  box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+
+}
+/* All Icons Css End  */

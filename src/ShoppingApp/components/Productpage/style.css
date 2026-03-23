@@ -1,0 +1,333 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-comtainer {
+  display: flex;
+  justify-content: space-around !important;
+  margin-top: 40px;
+}
+
+.main2-Container {
+  width: 460px;
+}
+
+@media screen and (max-width: 768px) {
+  .main2-Container {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-comtainer {
+    display: inline-block;
+    margin-top: 40px;
+  }
+
+  .main2-Container {
+    width: 350px;
+  }
+
+  .Bynow-btn {
+    display: inline-block !important;
+    width: 490px;
+  }
+
+  .Bynow-btn button {
+    margin-top: 20px;
+  }
+}
+
+.rightMenu h2 {
+  font-size: 24px;
+  font-weight: 600;
+
+  color: rgb(5, 95, 5);
+}
+
+.rightMenu h3 {
+  color: rgb(231, 66, 6);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.ProductRange {
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.ProductRange span {
+  position: relative;
+  top: 4px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.Bynow-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 460px;
+}
+
+.Bynow-btn button {
+  background-color: transparent;
+  border: 1px solid orangered;
+  padding: 10px 60px;
+  color: orangered;
+}
+
+.Bynow-btn button:hover {
+  background-color: orangered;
+  border: none;
+  padding: 10px 60px;
+  box-shadow: 0px 11px 15px -3px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.Bynow-btn2 button {
+  /* background-color: transparent;
+  border: 1px solid rgb(5, 136, 29);
+  padding: 10px 60px;
+  color: rgb(5, 136, 29); */
+
+  background-color: rgb(5, 136, 29);
+  border: none;
+  padding: 10px 60px;
+
+  color: white;
+}
+
+.Bynow-btn2 button:hover {
+  background-color: transparent;
+  border: 1px solid rgb(5, 136, 29);
+  padding: 10px 60px;
+  color: rgb(5, 136, 29);
+  box-shadow: 0px 11px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+/* Benefits css start */
+.Cart {
+  border-radius: 10px !important;
+  background-color: rgb(250, 244, 235);
+  text-align: center;
+}
+
+.Cart img {
+  width: 200px;
+  border: 7px solid rgb(176, 9, 9);
+  box-shadow: 0px 8px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+/* Benefits css end */
+
+/* Ingredients css Start  */
+
+.Cart2 {
+  border-radius: 10px !important;
+  background-color: rgb(211, 244, 215);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.Cart2 img {
+  width: 200px;
+  border: 7px solid rgb(176, 9, 9);
+  box-shadow: 0px 8px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+/* Ingredients css end  */
+
+/* How to use section css start */
+.MainContainer {
+  margin-top: 50px;
+}
+
+.MainCart {
+  background-color: rgb(252, 245, 236);
+}
+
+.Box {
+  background-color: orangered;
+  width: 35px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: 0px 8px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+/* How to use section csss end */
+
+/* Product Details css  Start   */
+.ProductsBox {
+  position: relative;
+  width: 95%;
+  top: 60px;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px -3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+
+.expert {}
+
+@media screen and (max-width: 768px) {
+  .ProductsBox {
+    margin: 10px;
+  }
+
+  .howimg {
+    width: 400px;
+  }
+
+  .pcontainer {
+
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .ProductsBox {
+    margin: 10px;
+    background-color: aliceblue;
+  }
+}
+
+/* Product Details css  End   */
+
+/* Talk to our Expert section Css  start  */
+.main-Container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+  background-color: aliceblue;
+  padding: 30px;
+}
+
+.BTN {
+  padding: 5px 40px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: white;
+  background-color: orangered;
+  border: none;
+}
+
+.BTN:hover {
+  padding: 5px 40px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: rgb(5, 95, 5);
+  background-color: transparent;
+  border: 1px solid rgb(5, 95, 5);
+}
+
+.Right-box img {
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+/* @media screen {
+  .main-Container  {
+    font-size: 16px;
+  }s
+} */
+
+/* offer cart css sart */
+
+.PackeCartMain {
+  display: flex;
+  align-items: start;
+  width: 400px;
+  cursor: pointer;
+}
+
+.PackeCart {
+  width: 140px;
+  border: 1px solid orangered;
+  height: 149px;
+  background-color: rgb(224, 245, 241);
+}
+
+.Items {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Heading-Text p {
+  font-size: 15px;
+}
+
+.Price-text p {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 10px;
+  color: rgb(4, 92, 4);
+}
+
+.Price-text2 p {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 6px;
+  color: rgb(121, 124, 121);
+}
+
+.Price-text3 p {
+  font-size: 10px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.Best-Sell p {
+  background-color: orangered;
+  color: white;
+  line-height: 30px;
+}
+
+/* offer cart css end */
+
+@media screen and (max-width: 768px) {
+  .main-Container {
+    display: inline-block;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-Container {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  .Right-box img {
+    margin-top: 20px;
+  }
+}
+
+/* Talk to our Expert section Css  End  */
+
+@media screen {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}

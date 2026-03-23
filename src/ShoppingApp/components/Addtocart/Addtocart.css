@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Heading-Cart {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.Heading-Cart h4 {
+  font-weight: 600;
+  color: rgb(10, 168, 10);
+  text-transform: uppercase;
+}
+
+.Heading-Cart p {
+  font-size: 15px;
+}
+
+.Product {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Product p {
+  color: gray;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.Product-item {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+.Product-item p {
+  font-size: 15px;
+}
+.Product-info {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.checkout{
+
+  text-align: center;
+  margin-bottom:100px;
+}
+.checkout button {
+  background-color: orangered;
+  border: 1px solid orangered;
+  padding: 10px 60px;
+  color: white;
+
+}
+
+.checkout button:hover {
+  background-color: transparent;
+  border: 1px solid orangered;
+  padding: 10px 60px;
+  color: orangered;
+
+}
+@media screen and (max-width: 768px) {
+  .Product-info {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Product-item,
+  .Heading-Cart,
+  .Product {
+    display: inline;
+    text-align: center;
+  }
+  .Product-item img {
+    margin-left: 130px;
+  }
+  .Range {
+    margin-left: 130px;
+  }
+  .LastPrice {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+.Range {
+  display: flex;
+}
+
+.totalPrice{
+
+display:flex;
+justify-content:end;
+
+}
+@media screen and (max-width: 768px) {
+  .Range {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.ProductRange {
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.ProductRange span {
+  position: relative;
+  top: 4px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.Range button {
+  width: 45px;
+  height: 40px;
+  background-color: orangered;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.Range button img {
+  margin-top: -8px;
+  margin-left: 2px;
+}
+.Range button:hover {
+  width: 45px;
+  height: 40px;
+  background-color: rgb(235, 103, 55);
+  text-align: center;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media screen {
+  body {
+    font-size: 16px; /* Example rule */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}

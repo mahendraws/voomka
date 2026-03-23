@@ -1,0 +1,38 @@
+.Profile-heading h5 {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(7, 105, 7);
+  font-size: x-large;
+  font-weight: 600;
+
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.UserMain {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.InputFilds {
+  display: flex;
+  justify-content: space-evenly;
+}
+.InputFilds input {
+  padding: 10px;
+  width: 500px;
+  margin-top: 20px;
+}
+.update-btn button {
+  background-color: transparent;
+  border: 1px solid orangered;
+  padding: 10px 60px;
+  color: orangered;
+  text-transform: uppercase;
+}
+.update-btn button:hover {
+  background-color: rgb(5, 136, 29);
+  border: none;
+  padding: 10px 60px;
+
+  color: white;
+}

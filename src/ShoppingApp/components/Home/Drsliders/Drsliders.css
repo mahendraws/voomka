@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Main-one {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(236, 249, 237);
+  border: 1px solid rgb(229, 227, 227);
+  border-radius: 10px;
+  height: 400px;
+}
+
+
+
+.left-info img {
+  margin-top: 50px;
+
+  border: 10px solid #d8dcda;
+}
+.right-info h4 {
+  margin-top: 50px;
+  font-size: 32px;
+  color: #09713a;
+}
+
+.one-info-box {
+  position: relative;
+  top: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Main-one {
+    flex-direction: column;
+    background-color: blanchedalmond;
+  }
+}
