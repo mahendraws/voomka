@@ -10,7 +10,7 @@ function Categories() {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="section-tittle text-center mb-85">
-                            <h3>Shop by Category</h3>
+                            <h3>Shop by Category..</h3>
                         </div>
                     </div>
                 </div>
