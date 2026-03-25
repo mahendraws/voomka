@@ -27,7 +27,7 @@ function Profile() {
   useEffect(() => {
     axios
       .post(
-        "http://localhost/voomka/frontend/profile.php",
+        "https://voomka.in/frontend/profile.php",
         { "cust_id": custID, "isUpdate": "0" }
       )
       .then(function (response) {

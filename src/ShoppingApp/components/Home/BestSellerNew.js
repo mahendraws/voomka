@@ -17,7 +17,7 @@ function BestSellerNew() {
 
   const buildUrl = (customOffset = 0) => {
 
-    let url = `http://localhost/voomka/dashboard/api/products/products.php?limit=${limit}&offset=${customOffset}`;
+    let url = `https://voomka.in/dashboard/api/products/products.php?limit=${limit}&offset=${customOffset}`;
     return url;
 
   };
@@ -103,7 +103,7 @@ function BestSellerNew() {
 
                     <div class="image-holder">
                       <img
-                        src={`http://localhost/voomka/dashboard/api/uploads/${product.image_name}`}
+                        src={`https://voomka.in/dashboard/api/uploads/${product.image_name}`}
                         className="card-img-top"
                         alt={product.product_name}
                         loading="lazy"

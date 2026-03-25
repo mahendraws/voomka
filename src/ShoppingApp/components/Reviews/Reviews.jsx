@@ -12,7 +12,7 @@ function Reviews(props) {
 
     axios
       .post(
-        "http://localhost/voomka/frontend/getReview.php",
+        "https://voomka.in/frontend/getReview.php",
         { product_id: props.productId }
       )
       .then(function (response) {

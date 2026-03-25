@@ -13,7 +13,7 @@ function OrderDetails({ orderid, paymentid }) {
 
     console.log("----- card product th-----  ", data)
     axios
-      .post("http://localhost/voomka/frontend/addRazorpayOrder.php", data)
+      .post("https://voomka.in/frontend/addRazorpayOrder.php", data)
       .then(function (response) {
         // getProdData(response)
         console.log(response)

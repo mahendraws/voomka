@@ -100,7 +100,7 @@ function ProductPage() {
               }
               {existingImages.map((image, index) => (
                 <div key={index}>
-                  <img src={`http://localhost/voomka/dashboard/api/uploads/${image.image_name}`} alt={image.image_name} />
+                  <img src={`https://voomka.in/dashboard/api/uploads/${image.image_name}`} alt={image.image_name} />
                 </div>
               ))}
 

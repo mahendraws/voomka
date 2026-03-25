@@ -33,7 +33,7 @@ const ShopContextProvider = (props) => {
 
 
     const res = await fetch(
-      `http://localhost/voomka/dashboard/api/products/get.php?id=${product_id}`
+      `https://voomka.in/dashboard/api/products/get.php?id=${product_id}`
     );
 
     const data = await res.json();
@@ -59,7 +59,7 @@ const ShopContextProvider = (props) => {
 
 
     axios
-      .post("http://localhost/voomka/frontend/addtocart.php", { "itemId": itemId, "quantity": quantity, "custID": custID })
+      .post("https://voomka.in//frontend/addtocart.php", { "itemId": itemId, "quantity": quantity, "custID": custID })
       .then(function (response) {
         console.log("cart added >>> ", response.data);
 
@@ -86,7 +86,7 @@ const ShopContextProvider = (props) => {
     setCartProduct([]);
     setTotalPrice(0)
     axios
-      .delete("http://localhost/voomka/frontend/getcarts.php", { data: { "cust_id": custID } })
+      .delete("https://voomka.in/frontend/getcarts.php", { data: { "cust_id": custID } })
       .then(function (response) {
         // getProdData(response)
       })
@@ -102,7 +102,7 @@ const ShopContextProvider = (props) => {
     setCartProduct(fc)
 
     axios
-      .delete("http://localhost/voomka/frontend/getcarts.php", { data: { "order_id": num } })
+      .delete("https://voomka.in/frontend/getcarts.php", { data: { "order_id": num } })
       .then(function (response) {
         // getProdData(response)
       })
@@ -126,7 +126,7 @@ const ShopContextProvider = (props) => {
   const getTotalCartItemsLogin = (id) => {
 
     axios
-      .post("http://localhost/voomka/frontend/getcarts.php", { "cust_id": id })
+      .post("https://voomka.in/frontend/getcarts.php", { "cust_id": id })
       .then(function (response) {
         getProdData(response)
       })
@@ -137,7 +137,7 @@ const ShopContextProvider = (props) => {
   const getTotalCartItems = () => {
 
     axios
-      .post("http://localhost/voomka/frontend/getcarts.php", { "cust_id": custID })
+      .post("https://voomka.in/frontend/getcarts.php", { "cust_id": custID })
       .then(function (response) {
 
         getProdData(response)

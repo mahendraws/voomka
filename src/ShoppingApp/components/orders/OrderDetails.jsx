@@ -6,7 +6,7 @@ const OrderDetails = () => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost/voomka/frontend/orders/getOrderDetails.php?order_id=${order_id}`)
+        fetch(`https://voomka.in/frontend/orders/getOrderDetails.php?order_id=${order_id}`)
             .then(res => res.json())
             .then(data => setItems(data));
     }, [order_id]);

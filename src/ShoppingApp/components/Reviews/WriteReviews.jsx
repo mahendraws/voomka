@@ -32,7 +32,7 @@ function WriteReviews({ currentProduct }) {
 
     axios
       .post(
-        "http://localhost/voomka/frontend/review.php",
+        "https://voomka.in/frontend/review.php",
         data
       )
       .then(function (response) {

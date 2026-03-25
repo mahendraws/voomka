@@ -7,7 +7,7 @@ const MyOrders = () => {
     const [page, setPage] = useState(1);
     const { isLogin, custID, cust_name } = useContext(ShopContext);
     useEffect(() => {
-        fetch(`http://localhost/voomka/frontend/orders/getMyOrders.php?cust_id=${custID}&page=${page}`)
+        fetch(`https://voomka.in/frontend/orders/getMyOrders.php?cust_id=${custID}&page=${page}`)
             .then(res => res.json())
             .then(data => setOrders(data));
     }, [page, custID]);

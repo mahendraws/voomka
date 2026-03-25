@@ -13,7 +13,7 @@ function BestSelling() {
 
     const buildUrl = (customOffset = 0) => {
 
-        let url = `http://localhost/voomka/dashboard/api/products/productsrand.php?limit=${limit}&offset=${customOffset}`;
+        let url = `https://voomka.in/dashboard/api/products/productsrand.php?limit=${limit}&offset=${customOffset}`;
         return url;
 
     };
