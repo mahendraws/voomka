@@ -59,7 +59,7 @@ const ShopContextProvider = (props) => {
 
 
     axios
-      .post("https://voomka.in//frontend/addtocart.php", { "itemId": itemId, "quantity": quantity, "custID": custID })
+      .post("https://voomka.in/frontend/addtocart.php", { "itemId": itemId, "quantity": quantity, "custID": custID })
       .then(function (response) {
         console.log("cart added >>> ", response.data);
 
