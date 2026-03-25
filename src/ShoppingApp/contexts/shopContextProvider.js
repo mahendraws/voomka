@@ -92,7 +92,6 @@ const ShopContextProvider = (props) => {
       })
 
   }
-
   const deleteCartItem = (num) => {
 
     console.log("delete order id ", num)
@@ -106,7 +105,6 @@ const ShopContextProvider = (props) => {
       .then(function (response) {
         // getProdData(response)
       })
-
 
   }
 
