@@ -5,9 +5,43 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  overflow-x: hidden;
+
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+html {
+  background-color: #232e3e;
+}
+
+.homebanner {
+  width: 100%;
+  max-width: 450px;
+
+}
+
+
+
+.slick-arrow {
+  display: none !important;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  z-index: 2;
+}
+
+.features .element-title {
+  font-size: 20px;
 }

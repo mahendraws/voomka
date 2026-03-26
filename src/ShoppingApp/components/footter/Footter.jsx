@@ -80,6 +80,7 @@ function Footter() {
         <hr />
         <div className="text-center">
           <p>© 2026 Voomka. ALL RIGHTS RESERVED.</p>
+          <br /><br />
         </div>
       </div>
     </>

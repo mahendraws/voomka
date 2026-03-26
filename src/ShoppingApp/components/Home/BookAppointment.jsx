@@ -18,8 +18,8 @@ function BookAppointment() {
         <section className="features py-5">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-3 text-center" >
-                        <div className="py-5">
+                    <div className="col-sm-6 text-center" >
+                        <div className="py-2">
                             <svg width="38" height="38" viewBox="0 0 24 24">
                                 <use href="#calendar"></use>
                             </svg>
@@ -27,8 +27,8 @@ function BookAppointment() {
                             <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
                         </div>
                     </div>
-                    <div className="col-md-3 text-center">
-                        <div className="py-5">
+                    <div className="col-sm-6 text-center">
+                        <div className="py-2">
                             <svg width="38" height="38" viewBox="0 0 24 24">
                                 <use href="#shopping-bag"></use>
                             </svg>
@@ -36,8 +36,8 @@ function BookAppointment() {
                             <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
                         </div>
                     </div>
-                    <div className="col-md-3 text-center" >
-                        <div className="py-5">
+                    <div className="col-sm-6 text-center" >
+                        <div className="py-2">
                             <svg width="38" height="38" viewBox="0 0 24 24">
                                 <use href="#gift"></use>
                             </svg>
@@ -45,8 +45,8 @@ function BookAppointment() {
                             <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
                         </div>
                     </div>
-                    <div className="col-md-3 text-center" >
-                        <div className="py-5">
+                    <div className="col-sm-6 text-center" >
+                        <div className="py-2">
                             <svg width="38" height="38" viewBox="0 0 24 24">
                                 <use href="#arrow-cycle"></use>
                             </svg>

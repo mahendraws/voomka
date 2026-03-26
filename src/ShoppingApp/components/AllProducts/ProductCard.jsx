@@ -26,7 +26,7 @@ const ProductCard = ({ product }) => {
     const notify = (mess) => toast(mess);
 
     return (
-        <div className="col-md-3 col-6 mb-4" >
+        <div className="col-md-6 col-6 mb-4" >
 
             <div className="card h-100 shadow-sm">
 

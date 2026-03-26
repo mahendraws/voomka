@@ -14,7 +14,7 @@ import BestSelling from './BestSelling';
 function Home() {
   return (
     <>
-      <HeroNew />
+
 
       <Banner />
       <BookAppointment />

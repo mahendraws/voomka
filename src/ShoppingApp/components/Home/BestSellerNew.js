@@ -59,14 +59,14 @@ function BestSellerNew() {
     infinite: true,
     autoplay: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -75,7 +75,7 @@ function BestSellerNew() {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2,
         },
       },
@@ -88,6 +88,8 @@ function BestSellerNew() {
       },
     ],
   };
+
+
   return (
     <>
       <div className="container" id="Main-Box2">
@@ -116,7 +118,7 @@ function BestSellerNew() {
                       />
                     </div>
                     <div class="banner-content py-4">
-                      <h5 class="element-title text-uppercase">
+                      <h5 class="element-title">
                         <a href="#" class="item-anchor" onClick={() => {
                           navigate(`/AllProducts/${product.product_id}`);
                         }}>{product.product_name}</a>
@@ -137,6 +139,8 @@ function BestSellerNew() {
 
           </div>
         </div>
+
+
       </div>
     </>
   );

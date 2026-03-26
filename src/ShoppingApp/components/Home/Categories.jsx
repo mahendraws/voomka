@@ -4,18 +4,18 @@ import cat2 from '../../assets/images/cat2.jpg';
 import cat3 from '../../assets/images/cat3.jpg';
 function Categories() {
     return (
-        <section className="category-area section-padding30">
+        <section className="category-area section-padding30 mt-4 ">
             <div className="container-fluid">
 
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="section-tittle text-center mb-85">
-                            <h3>Shop by Category....</h3>
+                            <h4>Shop by Category</h4>
                         </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-xl-4 col-lg-6">
+                <div className="row mt-4">
+                    <div className="col-12">
                         <div className="single-category mb-30">
                             <div className="category-img">
                                 <img src={cat1} alt="cat1" loading="lazy" decoding="async" />
@@ -27,7 +27,7 @@ function Categories() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-4 col-lg-6">
+                    <div className="col-12">
                         <div className="single-category mb-30">
                             <div className="category-img text-center">
                                 <img src={cat2} alt="cat2" loading="lazy" decoding="async" />
@@ -39,7 +39,7 @@ function Categories() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-4 col-lg-6">
+                    <div className="col-12">
                         <div className="single-category mb-30">
                             <div className="category-img">
                                 <img src={cat3} alt="cat3" loading="lazy" decoding="async" />

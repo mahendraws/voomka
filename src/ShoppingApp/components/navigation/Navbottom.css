@@ -1,0 +1,65 @@
+.navbottom {
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    max-width: 450px;
+    background: #ffffff;
+    border-top: 1px solid #959393;
+    z-index: 9999;
+    padding: 6px 0;
+    margin: 0 auto;
+}
+
+
+
+.navbottom .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbottom .nav-item img {
+    width: 22px;
+    height: 22px;
+    margin-bottom: 2px;
+    transition: 0.3s;
+}
+
+.navbottom .nav-item p {
+    font-size: 11px;
+    margin: 0;
+    color: #555;
+    transition: 0.3s;
+}
+
+/* 🔥 ACTIVE TAB (App Style) */
+.navbottom .nav-item.active p {
+    color: #f83d13;
+    font-weight: 600;
+}
+
+.navbottom .nav-item.active img {
+    transform: scale(1.1);
+    filter: brightness(0) saturate(100%) invert(48%) sepia(96%) saturate(500%) hue-rotate(10deg);
+}
+
+/* 📦 ICON WRAPPER FOR BADGE */
+.icon-wrapper {
+    position: relative;
+}
+
+/* 🔴 CART BADGE */
+.badge {
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    background: red;
+    color: #fff;
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 50%;
+}

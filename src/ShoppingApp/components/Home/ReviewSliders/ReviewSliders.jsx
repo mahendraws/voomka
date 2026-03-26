@@ -10,14 +10,14 @@ function ReviewSliders() {
     infinite: true,
     autoplay: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -25,9 +25,9 @@ function ReviewSliders() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
       {
@@ -42,13 +42,13 @@ function ReviewSliders() {
   return (
     <>
       <div className="container" id="Main-Box">
-        <h2 className="text-center mb-4 ">Trusted by <b>More</b> Customers</h2>
+        <h4 className="text-center mb-4 ">Trusted by <b>More</b> Customers</h4>
         <div className="slider-container">
           <Slider {...settings}>
             <div className="p-3">
               <div className="main-reviews-box">
                 <span className="heading-text">
-                  <h4>Sudhanshu Gaikwad</h4>
+                  <h5>Sudhanshu Gaikwad</h5>
                 </span>
                 <p>
                   <Rating value="4" weight="15px" readonly />
@@ -64,7 +64,7 @@ function ReviewSliders() {
             <div className="p-3">
               <div className="main-reviews-box">
                 <span className="heading-text">
-                  <h4>Sudhanshu Gaikwad</h4>
+                  <h5>Vishaka More</h5>
                 </span>
                 <p>
                   <Rating value="4" weight="15px" readonly />
@@ -80,7 +80,7 @@ function ReviewSliders() {
             <div className="p-3">
               <div className="main-reviews-box">
                 <span className="heading-text">
-                  <h4>Sudhanshu Gaikwad</h4>
+                  <h5>Aniket Kadam</h5>
                 </span>
                 <p>
                   <Rating value="4" weight="15px" readonly />
@@ -96,7 +96,7 @@ function ReviewSliders() {
             <div className="p-3">
               <div className="main-reviews-box">
                 <span className="heading-text">
-                  <h4>Sudhanshu Gaikwad</h4>
+                  <h5>Sony Fitore</h5>
                 </span>
                 <p>
                   <Rating value="4" weight="15px" readonly />
@@ -112,7 +112,7 @@ function ReviewSliders() {
             <div className="p-3">
               <div className="main-reviews-box">
                 <span className="heading-text">
-                  <h4>Sudhanshu Gaikwad</h4>
+                  <h5>Aakash Chopra</h5>
                 </span>
                 <p>
                   <Rating value="4" weight="15px" readonly />
@@ -128,7 +128,7 @@ function ReviewSliders() {
             <div className="p-3">
               <div className="main-reviews-box">
                 <span className="heading-text">
-                  <h4>Sudhanshu Gaikwad</h4>
+                  <h5>Sattu devangan</h5>
                 </span>
                 <p>
                   <Rating value="4" weight="15px" readonly />
@@ -141,56 +141,9 @@ function ReviewSliders() {
               </div>
             </div>
 
-            <div className="p-3">
-              <div className="main-reviews-box">
-                <span className="heading-text">
-                  <h4>Sudhanshu Gaikwad</h4>
-                </span>
-                <p>
-                  <Rating value="4" weight="15px" readonly />
-                </p>
-                <span>
-                  <p>
-                    Regarding my medications everything is parfect.I am feeling
-                    so well and good within one week.
-                  </p>
-                </span>
-              </div>
-            </div>
 
-            <div className="p-3">
-              <div className="main-reviews-box">
-                <span className="heading-text">
-                  <h4>Sudhanshu Gaikwad</h4>
-                </span>
-                <p>
-                  <Rating value="4" weight="15px" readonly />
-                </p>
-                <span>
-                  <p>
-                    Regarding my medications everything is parfect.I am feeling
-                    so well and good within one week.
-                  </p>
-                </span>
-              </div>
-            </div>
 
-            <div className="p-3">
-              <div className="main-reviews-box">
-                <span className="heading-text">
-                  <h4>Sudhanshu Gaikwad</h4>
-                </span>
-                <p>
-                  <Rating value="4" weight="15px" readonly />
-                </p>
-                <span>
-                  <p>
-                    Regarding my medications everything is parfect.I am feeling
-                    so well and good within one week.
-                  </p>
-                </span>
-              </div>
-            </div>
+
           </Slider>
         </div>
       </div>

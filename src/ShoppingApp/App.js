@@ -22,13 +22,14 @@ import Products from "./components/AllProducts/Products";
 import ScrollToTop from "./ScrollToTop";
 import MyOrders from "./components/orders/MyOrders";
 import OrderDetails from "./components/orders/OrderDetails";
+import Navbottom from "./components/navigation/Navbottom";
 function App({ Component, pageProps }) {
   return (
     <div>
 
       <BrowserRouter>
         <ScrollToTop />
-        <Navigation />
+
         <Routes>
           <Route path="/" element={<Home {...pageProps} />} />
           <Route path="/Home" element={<Home />} />
@@ -50,6 +51,7 @@ function App({ Component, pageProps }) {
           <Route path="*" element={<Nopage />} />
         </Routes>
         <Footter />
+        <Navbottom />
       </BrowserRouter>
 
     </div>

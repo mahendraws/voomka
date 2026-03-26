@@ -52,7 +52,7 @@ function BestSelling() {
 
     return (
         <div className="container " style={{ marginTop: "100px" }}>
-            <h3 className="text-center">Best Selling Items</h3>
+            <h4 className="text-center">Best Selling Items</h4>
 
             <div className="row mt-5">
 
