@@ -24,7 +24,7 @@ const Products = () => {
 
     const buildUrl = (customOffset = offset) => {
 
-        let url = `http://localhost/voomka/dashboard/api/products/products.php?limit=${limit}&offset=${customOffset}`;
+        let url = `https://voomka.in/dashboard/api/products/products.php?limit=${limit}&offset=${customOffset}`;
 
         Object.keys(filters).forEach(key => {
 
