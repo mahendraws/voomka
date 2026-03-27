@@ -51,7 +51,7 @@ function Profile() {
 
     axios
       .post(
-        "https://www.ncenanded.com/project/chaitanya/profile.php",
+        "https://voomka.in/frontend/profile.php",
         profileData
       )
       .then(function (response) {
