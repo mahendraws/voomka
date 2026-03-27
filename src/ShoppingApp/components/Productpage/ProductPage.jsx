@@ -15,6 +15,7 @@ import { useParams } from "react-router-dom";
 
 import minus from "../../assets/images/minus.png";
 import add from "../../assets/images/plus.png";
+import BackButton from "../navigation/BackButton";
 
 
 function ProductPage() {
@@ -91,8 +92,9 @@ function ProductPage() {
 
 
   return (
-    <>
+    <> <BackButton />
       <div className="container main-comtainer pcontainer">
+
         <div class="carousel-wrapper main2-Container ">
           <div class="">
             <Carousel>

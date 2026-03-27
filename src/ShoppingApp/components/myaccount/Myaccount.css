@@ -1,0 +1,118 @@
+.myaccount {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 24px 20px;
+}
+
+.myaccount .welcome {
+    margin: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #e5e5e5;
+}
+
+/* Profile Header */
+.myaccount .profile-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.myaccount .avatar {
+    width: 64px;
+    height: 64px;
+    background-color: #f28b82;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.myaccount .avatar-text {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.myaccount .user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.myaccount .user-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5f6368;
+}
+
+.myaccount .user-phone {
+    font-size: 14px;
+    color: #9aa0a6;
+}
+
+/* Menu List */
+.myaccount .menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.myaccount .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.myaccount .menu-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #ff7532;
+}
+
+.myaccount .menu-icon i {
+    width: 20px;
+    height: 20px;
+    color: #f28b82;
+    stroke-width: 1.5;
+}
+
+.myaccount .menu-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.myaccount .menu-title {
+    font-size: 17px;
+    font-weight: 600;
+    color: #5f6368;
+}
+
+.myaccount .menu-subtitle {
+    font-size: 13px;
+    color: #9aa0a6;
+}
+
+.myaccount .menu-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.myaccount .menu-arrow i {
+    width: 20px;
+    height: 20px;
+    color: #9aa0a6;
+    stroke-width: 1.5;
+}

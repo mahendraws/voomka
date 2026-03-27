@@ -23,6 +23,7 @@ import ScrollToTop from "./ScrollToTop";
 import MyOrders from "./components/orders/MyOrders";
 import OrderDetails from "./components/orders/OrderDetails";
 import Navbottom from "./components/navigation/Navbottom";
+import Myaccount from "./components/myaccount/Myaccount";
 function App({ Component, pageProps }) {
   return (
     <div>
@@ -40,6 +41,7 @@ function App({ Component, pageProps }) {
           <Route path="/Addtocart" element={<Addtocart />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Account" element={<Account />} />
+          <Route path="/Myaccount" element={<Myaccount />} />
           <Route path="/Checkout" element={<CheckoutMain />} />
 
           <Route path="/Thankyou" element={<MainThankyou />} />

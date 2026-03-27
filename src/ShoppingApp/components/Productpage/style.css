@@ -1,11 +1,7 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .main-comtainer {
   display: flex;
   justify-content: space-around !important;
-  margin-top: 40px;
+
 }
 
 .main2-Container {
@@ -21,7 +17,7 @@ body {
 
 .main-comtainer {
   display: inline-block;
-  margin-top: 40px;
+
 }
 
 .main2-Container {

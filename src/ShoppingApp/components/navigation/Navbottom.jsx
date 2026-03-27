@@ -49,8 +49,8 @@ function Navbottom({ cartCount = 0 }) {
                     </div>
 
                     <div
-                        className={`col nav-item ${isActive("/account") ? "active" : ""}`}
-                        onClick={() => navigate("/account")}
+                        className={`col nav-item ${isActive("/Myaccount") ? "active" : ""}`}
+                        onClick={() => navigate("/Myaccount")}
                     >
                         <img src="/icons/user.png" alt="Account" />
                         <p>Account</p>

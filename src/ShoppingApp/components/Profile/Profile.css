@@ -1,6 +1,6 @@
 .Profile-heading h5 {
   text-align: center;
-  margin-top: 20px;
+
   color: rgb(7, 105, 7);
   font-size: x-large;
   font-weight: 600;
@@ -10,18 +10,18 @@
 }
 
 .UserMain {
-  margin-top: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  max-width: 420px;
+
 }
-.InputFilds {
-  display: flex;
-  justify-content: space-evenly;
-}
+
+.InputFilds {}
+
 .InputFilds input {
   padding: 10px;
-  width: 500px;
+  width: 98%;
   margin-top: 20px;
 }
+
 .update-btn button {
   background-color: transparent;
   border: 1px solid orangered;
@@ -29,6 +29,7 @@
   color: orangered;
   text-transform: uppercase;
 }
+
 .update-btn button:hover {
   background-color: rgb(5, 136, 29);
   border: none;

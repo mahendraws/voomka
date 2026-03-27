@@ -4,6 +4,7 @@ import axios from "axios";
 import { ShopContext } from "../../contexts/shopContextProvider";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
+import BackButton from "../navigation/BackButton";
 
 function Profile() {
   const { custID } = useContext(ShopContext)
@@ -63,8 +64,10 @@ function Profile() {
 
   return (
     <>
+
       <div>
         <div className="container UserInfo">
+          <BackButton />
           <div className="UserMain">
             <div className="Profile-heading">
               <h5 className="text-center"> User Profile </h5>
@@ -74,11 +77,12 @@ function Profile() {
             <div className="InputFilds">
               <div>
                 <span>
-                  Name :
+
                   <p>
                     <input
                       type="text"
                       name="name"
+                      placeholder="Name"
                       value={profileData.name}
                       onChange={(e) => {
                         setProfileData({
@@ -90,11 +94,12 @@ function Profile() {
                   </p>
                 </span>
                 <span>
-                  Email :
+
                   <p>
                     <input
                       type="text"
                       name="email"
+                      placeholder="Email"
                       onChange={(e) => {
                         setProfileData({
                           ...profileData,
@@ -106,11 +111,12 @@ function Profile() {
                   </p>
                 </span>
                 <span>
-                  Mobile Number :
+
                   <p>
                     <input
                       type="text"
                       name="mobilenumber"
+                      placeholder=" Mobile Number"
                       onChange={(e) => {
                         setProfileData({
                           ...profileData,
@@ -122,11 +128,12 @@ function Profile() {
                   </p>
                 </span>
                 <span>
-                  Address 1:
+
                   <p>
                     <input
                       type="text"
                       name="address1"
+                      placeholder="House No/Name"
                       onChange={(e) => {
                         setProfileData({
                           ...profileData,
@@ -138,11 +145,12 @@ function Profile() {
                   </p>
                 </span>
                 <span>
-                  Address 2 :
+
                   <p>
                     <input
                       type="text"
                       name="address2"
+                      placeholder="Address"
                       onChange={(e) => {
                         setProfileData({
                           ...profileData,
@@ -157,11 +165,12 @@ function Profile() {
 
               <div>
                 <span>
-                  Country :
+
                   <p>
                     <input
                       type="text"
                       name="country"
+                      placeholder="Country"
                       onChange={(e) => {
                         setProfileData({
                           ...profileData,
@@ -172,29 +181,15 @@ function Profile() {
                     />
                   </p>
                 </span>
-                <span className="">
-                  New Password :
-                  <p>
-                    <input
-                      type="text"
-                      name="newpassword"
-                      onChange={(e) => {
-                        setProfileData({
-                          ...profileData,
-                          newpassword: e.target.value,
-                        });
-                      }}
-                      value={profileData.newpassword}
-                    />
-                  </p>
-                </span>
+
 
                 <span>
-                  State :
+
                   <p>
                     <input
                       type="text"
                       name="state"
+                      placeholder=" State"
                       onChange={(e) => {
                         setProfileData({
                           ...profileData,
@@ -207,11 +202,12 @@ function Profile() {
                 </span>
 
                 <span>
-                  City :
+
                   <p>
                     <input
                       type="text"
                       name="city"
+                      placeholder="City"
                       onChange={(e) => {
                         setProfileData({
                           ...profileData,
@@ -223,11 +219,12 @@ function Profile() {
                   </p>
                 </span>
                 <span>
-                  Pin Code :
+
                   <p>
                     <input
                       type="text"
                       name="pincode"
+                      placeholder=" Pin Code"
                       onChange={(e) => {
                         setProfileData({
                           ...profileData,
@@ -237,6 +234,29 @@ function Profile() {
                       value={profileData.pincode}
                     />
                   </p>
+                </span>
+
+
+                <span className="">
+                  <button data-bs-toggle="collapse" data-bs-target="#demo">Update Password ?</button>
+
+                  <p id="demo" class="collapse">
+                    <input
+                      type="text"
+                      name="newpassword"
+                      placeholder=" New Password"
+                      onChange={(e) => {
+                        setProfileData({
+                          ...profileData,
+                          newpassword: e.target.value,
+                        });
+                      }}
+                      value={profileData.newpassword}
+                    />
+                  </p>
+
+
+
                 </span>
 
                 <div

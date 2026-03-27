@@ -19,6 +19,7 @@
     "axios": "^1.6.8",
     "bootstrap": "^5.2.3",
     "http": "^0.0.1-security",
+    "lucide-react": "^1.7.0",
     "material-icons": "^1.13.12",
     "primereact": "^10.5.1",
     "rc-slider": "^11.1.9",
