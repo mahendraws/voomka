@@ -18,25 +18,22 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
-  .main-comtainer {
-    display: inline-block;
-    margin-top: 40px;
-  }
 
-  .main2-Container {
-    width: 350px;
-  }
-
-  .Bynow-btn {
-    display: inline-block !important;
-    width: 490px;
-  }
-
-  .Bynow-btn button {
-    margin-top: 20px;
-  }
+.main-comtainer {
+  display: inline-block;
+  margin-top: 40px;
 }
+
+.main2-Container {
+  width: 99%;
+}
+
+.Bynow-btn {}
+
+.Bynow-btn button {
+  margin-top: 20px;
+}
+
 
 .rightMenu h2 {
   font-size: 24px;
@@ -69,21 +66,21 @@ body {
 
 .Bynow-btn {
   display: flex;
-  justify-content: space-between;
-  width: 460px;
+  gap: 10px;
+
 }
 
 .Bynow-btn button {
   background-color: transparent;
   border: 1px solid orangered;
-  padding: 10px 60px;
+  padding: 10px 30px;
   color: orangered;
 }
 
 .Bynow-btn button:hover {
   background-color: orangered;
   border: none;
-  padding: 10px 60px;
+  padding: 10px 30px;
   box-shadow: 0px 11px 15px -3px rgba(0, 0, 0, 0.3);
   color: white;
 }

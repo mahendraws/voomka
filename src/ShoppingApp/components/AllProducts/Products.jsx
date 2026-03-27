@@ -137,11 +137,11 @@ const Products = () => {
     return (
 
 
-        <div className="container-fluid mt-5 p-4">
+        <div className="container-fluid ">
 
             {/* Mobile Filter Button */}
             <button
-                className="btn btn-primary d-md-none mb-3"
+                className="btn btn-primary  mb-3"
                 data-bs-toggle="offcanvas"
                 data-bs-target="#filterCanvas"
             >
@@ -151,7 +151,7 @@ const Products = () => {
             <div className="row">
 
 
-                {/* Desktop Filter */}
+                {/* Desktop Filter 
                 <div className="col-md-3 d-none d-md-block">
 
                     <Filter
@@ -160,10 +160,10 @@ const Products = () => {
                         resetFilters={resetFilters}
                     />
 
-                </div>
+                </div>*/}
 
                 {/* Products */}
-                <div className="col-md-9">
+                <div className="col">
 
                     <h4 className="m-4">Our Latest Collections</h4>
                     <div className="row">
@@ -204,7 +204,6 @@ const Products = () => {
             >
 
                 <div className="offcanvas-header">
-                    <h5>Filters</h5>
 
                     <button
                         className="btn-close"

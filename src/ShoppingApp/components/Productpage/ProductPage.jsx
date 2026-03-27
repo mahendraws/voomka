@@ -71,7 +71,7 @@ function ProductPage() {
 
   // Fetch product
   useEffect(() => {
-    fetch(`http://localhost/voomka/dashboard/api/products/get.php?id=${id.id}`)
+    fetch(`https://voomka.in/dashboard/api/products/get.php?id=${id.id}`)
       .then(res => res.json())
       .then(data => {
         setForm({
@@ -108,7 +108,7 @@ function ProductPage() {
           </div>
         </div>
 
-        <div className="rightMenu col-md-6">
+        <div className="rightMenu col-12">
           <h2>{form.product_name}</h2>
           <p>
             <span style={{ fontWeight: "700", fontSize: "20px" }}>
@@ -197,6 +197,8 @@ function ProductPage() {
             </div>
           </div>
         </div>
+
+
       </div>
 
 

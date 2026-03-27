@@ -11,9 +11,9 @@ function Cart({ order_id, ind, title, price, url, quantity, setTotalPrice, delet
   return (
 
 
-    <div className="Product-info mt-4">
+    <div className="Product-info ">
       <div className="Product-item">
-        <img src={`http://localhost/voomka/dashboard/api/uploads/${url}`} alt="" width="100px" />
+        <img src={`https://voomka.in/voomka/dashboard/api/uploads/${url}`} alt="" width="100px" />
         <div className="mt-4">
           <p style={{ color: "green" }}>{title}</p>
           <p>

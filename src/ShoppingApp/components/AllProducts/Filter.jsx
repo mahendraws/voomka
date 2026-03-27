@@ -17,7 +17,7 @@ const Filter = ({ filters, setFilters, resetFilters }) => {
     // Load categories from database
     useEffect(() => {
 
-        axios.get("http://localhost/voomka/dashboard/api/products/categories.php")
+        axios.get("https://voomka.in/dashboard/api/products/categories.php")
             .then(res => setCategories(res.data.data));
 
     }, []);
