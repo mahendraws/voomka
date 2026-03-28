@@ -97,7 +97,8 @@ function ProductPage() {
 
         <div class="carousel-wrapper main2-Container ">
           <div class="">
-            <Carousel>
+            <Carousel swipeable={true}
+              verticalSwipe="natural">
               {//console.log(existingImages)
               }
               {existingImages.map((image, index) => (

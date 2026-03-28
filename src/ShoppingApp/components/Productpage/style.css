@@ -285,6 +285,10 @@
   line-height: 30px;
 }
 
+.carousel .slider-wrapper {
+  touch-action: pan-y !important;
+}
+
 /* offer cart css end */
 
 @media screen and (max-width: 768px) {

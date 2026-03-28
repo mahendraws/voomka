@@ -59,6 +59,7 @@ const Filter = ({ filters, setFilters, resetFilters }) => {
 
                         <input
                             type="checkbox"
+                            id={cat.category_name}
                             className="form-check-input"
                             checked={filters.category == cat.category_id}
                             onChange={(e) =>
@@ -69,7 +70,7 @@ const Filter = ({ filters, setFilters, resetFilters }) => {
                             }
                         />
 
-                        <label className="form-check-label">
+                        <label for={cat.category_name} className="form-check-label">
                             {cat.category_name}
                         </label>
 
@@ -153,6 +154,7 @@ const Filter = ({ filters, setFilters, resetFilters }) => {
 
                         <input
                             type="checkbox"
+                            id={type}
                             className="form-check-input"
                             checked={filters.type == type}
                             onChange={(e) =>
@@ -163,7 +165,7 @@ const Filter = ({ filters, setFilters, resetFilters }) => {
                             }
                         />
 
-                        <label className="form-check-label">
+                        <label for={type} className="form-check-label">
                             {type}
                         </label>
 
@@ -184,6 +186,7 @@ const Filter = ({ filters, setFilters, resetFilters }) => {
 
                         <input
                             type="checkbox"
+                            id={fabric}
                             className="form-check-input"
                             checked={filters.fabric == fabric}
                             onChange={(e) =>
@@ -194,7 +197,7 @@ const Filter = ({ filters, setFilters, resetFilters }) => {
                             }
                         />
 
-                        <label className="form-check-label">
+                        <label for={fabric} className="form-check-label">
                             {fabric}
                         </label>
 

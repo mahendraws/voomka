@@ -52,7 +52,7 @@ function Cart({ order_id, ind, title, price, url, quantity, setTotalPrice, delet
             <img src={Delete} alt="" width="23px" />
           </button>
         </div>
-        <div className="LastPrice">
+        <div className="LastPrice d-none" >
           <p>
             <b>₹</b> {quantity * price} /-
           </p>
