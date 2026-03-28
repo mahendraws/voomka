@@ -6,8 +6,17 @@ import { ShopContext } from "../../contexts/shopContextProvider";
 import { Menu, Phone, ChevronRight, MoveDiagonal, CircleEllipsis, MapPin, FileText, UserPen, CornerDownLeft, HatGlasses } from 'lucide-react';
 
 function Myaccount() {
-    const { isLogin } = useContext(ShopContext)
+    const { cust_name, setCustName, setLogin, isLogin, cartItems, setCartProduct, setCustID, cartProduct } = useContext(ShopContext)
     const navigate = useNavigate()
+
+    const logout = () => {
+        setLogin(false);
+        setCustID(0)
+        setCartProduct([]);
+        setCustName("")
+        navigate("/Home")
+    }
+
     return (
         <div class="myaccount">
             {!isLogin ?
@@ -23,7 +32,7 @@ function Myaccount() {
                         <span class="avatar-text">U</span>
                     </div>
                     <div class="user-info">
-                        <h6 class="user-name">User</h6>
+                        <h6 class="user-name">{cust_name}</h6>
                         <p class="user-phone">8485856253</p>
                     </div>
                 </div>
@@ -31,7 +40,7 @@ function Myaccount() {
 
 
             <div class="menu-list mt-3">
-                {!isLogin ? <>
+                {isLogin ? <>
                     <div class="menu-item" onClick={() => { navigate("/my-orders") }}>
                         <div class="menu-icon">
                             <Menu />
@@ -142,6 +151,9 @@ function Myaccount() {
                     </div>
                 </div>
 
+                {isLogin ?
+                    <button className='btn btn-dark' onClick={logout}>Logout</button>
+                    : ""}
             </div>
         </div>
 

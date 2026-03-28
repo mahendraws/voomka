@@ -13,7 +13,7 @@ function Cart({ order_id, ind, title, price, url, quantity, setTotalPrice, delet
 
     <div className="Product-info ">
       <div className="Product-item">
-        <img src={`https://voomka.in/voomka/dashboard/api/uploads/${url}`} alt="" width="100px" />
+        <img src={`https://voomka.in/dashboard/api/uploads/${url}`} alt="" width="100px" />
         <div className="mt-4">
           <p style={{ color: "green" }}>{title}</p>
           <p>
@@ -26,7 +26,7 @@ function Cart({ order_id, ind, title, price, url, quantity, setTotalPrice, delet
       <div>
         <div className="Range">
           <div className="ProductRange">
-            <div>
+            <div style={{ display: "none" }}>
               <img
                 onClick={() => { updateQuantity(1, order_id) }}
                 src={minus}
@@ -38,7 +38,7 @@ function Cart({ order_id, ind, title, price, url, quantity, setTotalPrice, delet
             <div>
               <span>{quantity}</span>
             </div>
-            <div>
+            <div style={{ display: "none" }}>
               <img
                 onClick={() => { updateQuantity(0, order_id) }}
                 src={add}
