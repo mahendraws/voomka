@@ -25,7 +25,9 @@ function Profile() {
   });
 
   const notify = (mess) => toast(mess);
+
   useEffect(() => {
+    console.log("cust id  ", custID)
     axios
       .post(
         "https://voomka.in/frontend/profile.php",

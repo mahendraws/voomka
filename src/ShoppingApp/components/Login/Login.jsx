@@ -24,7 +24,7 @@ function Login() {
   function sendData(e) {
     e.preventDefault();
     axios
-      .post("https://voomka.in/voomka/frontend/login.php", logininfo)
+      .post("https://voomka.in/frontend/login.php", logininfo)
       .then(function (response) {
         console.log("Create Account Seanding Data >>> ", response.data.totalItems);
 
