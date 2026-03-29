@@ -22,7 +22,7 @@ const OrderDetails = () => {
 
                     <div className="col-md-4">
                         <img
-                            src={`http://localhost/voomka/dashboard/api/uploads/${item.image_name}`}
+                            src={`https://voomka.in/dashboard/api/uploads/${item.image_name}`}
                             className="card-img-top"
                             alt=""
                             style={{ height: "100px", objectFit: "cover" }}

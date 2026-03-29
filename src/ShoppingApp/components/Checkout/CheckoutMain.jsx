@@ -48,7 +48,7 @@ function CheckoutMain() {
 
     axios
       .post(
-        "http://localhost/voomka/frontend/profile.php",
+        "https://voomka.in/frontend/profile.php",
         { "cust_id": custID, "isUpdate": "0" }
       )
       .then(function (response) {
@@ -87,7 +87,7 @@ function CheckoutMain() {
 
     axios
       .post(
-        "http://localhost/voomka/frontend/createOrder.php",
+        "https://voomka.in/frontend/createOrder.php",
         {
           billing_name: profileData2.name,
           billing_email: profileData2.email,

@@ -21,7 +21,7 @@ function Account() {
   function handelClickSendData(event) {
     event.preventDefault()
     axios
-      .post("http://localhost/voomka/frontend/createcust.php", data)
+      .post("https://voomka.in/frontend/createcust.php", data)
       .then(function (response) {
         console.log("Create Account Seanding Data >>> ", response.data);
 
