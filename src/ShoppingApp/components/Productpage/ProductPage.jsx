@@ -16,6 +16,7 @@ import { useParams } from "react-router-dom";
 import minus from "../../assets/images/minus.png";
 import add from "../../assets/images/plus.png";
 import BackButton from "../navigation/BackButton";
+import BestSellerNew from "../Home/BestSellerNew";
 
 
 function ProductPage() {
@@ -147,7 +148,9 @@ function ProductPage() {
           </p>
 
 
-          {form.stock > 1 ?
+          {/*
+          
+          form.stock > 1 ?
             <div>
               <p style={{ color: "gray" }}>QUANTITY</p>
               <div className="ProductRange">
@@ -174,6 +177,7 @@ function ProductPage() {
                 </div>
               </div>
             </div> : ""
+          */
           }
 
 
@@ -206,8 +210,8 @@ function ProductPage() {
 
 
       </div>
-
-
+      <h5 className="mt-5 text-center">Top Collections</h5>
+      <BestSellerNew />
 
       {/*Review Section starts*/}
       <div id="reviewSection"></div>
@@ -219,8 +223,8 @@ function ProductPage() {
       <div>
         <div className="main-Container expert">
           <div className="left-Box">
-            <h2
-              className="mt-4 mb-4"
+            <h4
+              className="mt-2 mb-2"
               style={{
                 color: "rgba(53, 53, 53, 1)",
                 fontSize: "36px",
@@ -228,11 +232,11 @@ function ProductPage() {
               }}
             >
               Talk to our Expert
-            </h2>
-            <p style={{ fontSize: "25px" }}>
+            </h4>
+            <p style={{ fontSize: "20px" }}>
               Our trusted Experts can help you choose the right
             </p>
-            <p style={{ fontSize: "25px" }}>Fashion For You.</p>
+            <p style={{ fontSize: "20px" }}>Fashion For You.</p>
             <button className="BTN">+91 7887769868</button>
           </div>
 

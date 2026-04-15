@@ -11,6 +11,34 @@ function ThankyouPayment({ orderid, paymentid }) {
     return `${month}/${date}/${year}`;
   }
 
+  const saveCustomerLocation = (orderId) => {
+
+    navigator.geolocation.getCurrentPosition((pos) => {
+
+      const lat = pos.coords.latitude;
+      const lng = pos.coords.longitude;
+
+      fetch("https://voomka.in/dashboard/api/delivery/update-location.php", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          order_id: orderId,
+          user_type: "customer",
+          lat,
+          lng
+        })
+      });
+
+    }, (err) => {
+      console.log("Location denied", err);
+    });
+
+  };
+
+  saveCustomerLocation(orderid)
+
   return (
     <>
       <div className="main-payment-Box">

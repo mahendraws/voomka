@@ -24,7 +24,7 @@ function BookAppointment() {
                                 <use href="#calendar"></use>
                             </svg>
                             <h4 className="element-title text-capitalize my-3">Free Shipping Method</h4>
-                            <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+
                         </div>
                     </div>
                     <div className="col-sm-6 text-center">
@@ -33,7 +33,7 @@ function BookAppointment() {
                                 <use href="#shopping-bag"></use>
                             </svg>
                             <h4 className="element-title text-capitalize my-3">Pick up in store</h4>
-                            <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+
                         </div>
                     </div>
                     <div className="col-sm-6 text-center" >
@@ -42,7 +42,7 @@ function BookAppointment() {
                                 <use href="#gift"></use>
                             </svg>
                             <h4 className="element-title text-capitalize my-3">Special packaging</h4>
-                            <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+
                         </div>
                     </div>
                     <div className="col-sm-6 text-center" >
@@ -51,7 +51,7 @@ function BookAppointment() {
                                 <use href="#arrow-cycle"></use>
                             </svg>
                             <h4 className="element-title text-capitalize my-3">free global returns</h4>
-                            <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+
                         </div>
                     </div>
                 </div>

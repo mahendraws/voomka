@@ -92,9 +92,7 @@ function Banner() {
                     <div className="row justify-content-center">
                         <h4 className="section-title text-center mt-4" >New Collections</h4>
                         <div className="col text-center" >
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptas ut dolorum consequuntur, adipisci
-                                repellat! Eveniet commodi voluptatem voluptate, eum minima, in suscipit explicabo voluptatibus harum,
-                                quibusdam ex repellat eaque!</p>
+                            <p>Our latest collections...</p>
                         </div>
                     </div>
                     <div className="row">

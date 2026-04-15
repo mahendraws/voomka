@@ -18,9 +18,10 @@ function Home() {
 
       <Banner />
       <BookAppointment />
+      <BestSelling />
       <Categories />
       <FindBest />
-      <BestSelling />
+
       <ReviewSliders />
     </>
   );

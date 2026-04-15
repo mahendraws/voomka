@@ -63,7 +63,11 @@
 .Bynow-btn {
   display: flex;
   gap: 10px;
-
+  position: fixed;
+  bottom: 70px;
+  background-color: white;
+  padding: 10px;
+  z-index: 999;
 }
 
 .Bynow-btn button {
