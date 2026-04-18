@@ -11,7 +11,7 @@ function Login() {
   const navigate = useNavigate();
   const { setCustName, setLogin, setCustID, setCartProduct, getTotalCartItemsLogin } = useContext(ShopContext)
   const [logininfo, setLoginInfo] = useState({
-    email: "",
+    mobile: "",
     password: "",
   });
 
@@ -58,11 +58,11 @@ function Login() {
             <div className="InputFild">
               <div>
                 <input requried
-                  name="user_email"
-                  type="email"
-                  placeholder="Email"
+                  name="user_mobile"
+                  type="number"
+                  placeholder="Mobile"
                   onChange={(e) => {
-                    setLoginInfo({ ...logininfo, email: e.target.value });
+                    setLoginInfo({ ...logininfo, mobile: e.target.value });
                   }}
                 />
                 {/* {logininfo.name} */}

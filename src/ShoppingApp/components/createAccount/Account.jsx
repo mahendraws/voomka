@@ -61,7 +61,7 @@ function Account() {
                 />
               </div>
               <div>
-                <input required
+                <input
                   type="email"
                   name="email"
                   placeholder="Email"
