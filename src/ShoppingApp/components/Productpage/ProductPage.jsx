@@ -17,7 +17,7 @@ import minus from "../../assets/images/minus.png";
 import add from "../../assets/images/plus.png";
 import BackButton from "../navigation/BackButton";
 import BestSellerNew from "../Home/BestSellerNew";
-
+import { MessageCircle } from 'lucide-react';
 
 function ProductPage() {
   const navigate = useNavigate();
@@ -37,6 +37,7 @@ function ProductPage() {
 
   const [description, setDescription] = useState("");
   const [existingImages, setExistingImages] = useState([]);
+
 
 
 
@@ -91,6 +92,21 @@ function ProductPage() {
   }, [id]);
 
 
+
+  const sendWhatsApp = () => {
+    const phone = "917887769868";
+
+
+    const message = `Hello, I'm interested in this product:
+
+    🔗 Product Link:
+${window.location.href}
+
+Please share more details.`;
+
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  };
 
   return (
     <> <BackButton />
@@ -182,6 +198,11 @@ function ProductPage() {
 
 
           <ProductDetails ProductDescription={description} />
+          <div className="whatbtn" onClick={sendWhatsApp}>
+            <MessageCircle strokeWidth={2} />
+            &nbsp;Send Enquiry
+          </div>
+
           <div className="Bynow-btn">
             <div>
               <button
