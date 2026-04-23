@@ -24,7 +24,16 @@ import MyOrders from "./components/orders/MyOrders";
 import OrderDetails from "./components/orders/OrderDetails";
 import Navbottom from "./components/navigation/Navbottom";
 import Myaccount from "./components/myaccount/Myaccount";
+import Termsandconditions from "./components/RefundPolicy/Termsandconditions";
+import Contact from "./components/Aboutus/Contact";
 function App({ Component, pageProps }) {
+
+
+
+
+
+
+
   return (
     <div>
 
@@ -47,6 +56,9 @@ function App({ Component, pageProps }) {
           <Route path="/Thankyou" element={<MainThankyou />} />
           <Route path="/RefundPolicy" element={<RefundPolicy />} />
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Termsandconditions" element={<Termsandconditions />} />
+          <Route path="/ReturnPolicy" element={<RefundPolicy />} />
           <Route path="/WriteReviews" element={<WriteReviews />} />
           <Route path="/my-orders" element={<MyOrders />} />
           <Route path="/order-details/:order_id" element={<OrderDetails />} />

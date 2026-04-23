@@ -28,6 +28,26 @@ function Footter() {
             >
               Privacy Policy
             </p>
+
+            <p
+              onClick={() => {
+                navigate("/Termsandconditions");
+              }}
+              style={{ cursor: "pointer" }}
+            >
+              Terms & Conditions
+            </p>
+
+            <p
+              onClick={() => {
+                navigate("/ReturnPolicy");
+              }}
+              style={{ cursor: "pointer" }}
+            >
+              Refund And Return Policty
+            </p>
+
+
             <p
               onClick={() => {
                 navigate("/Aboutus");
@@ -58,7 +78,7 @@ function Footter() {
               <img src={email} alt="" />
               <p className="mx-2">Email</p>
             </span>
-            <p>voomka@gmail.com</p>
+            <p>support@voomka.in</p>
           </div>
           <div className="weaccept-main">
             <span className=" d-flex justify-content-start">

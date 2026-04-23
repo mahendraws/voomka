@@ -17,33 +17,19 @@ function RefundPolicy() {
                 <p>REFUND POLICY:</p>
               </span>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
-                perspiciatis error, rem ratione repellendus recusandae porro
-                praesentium iusto deserunt consequuntur accusamus libero
-                obcaecati, nam ex possimus sunt iste debitis animi?
+                Once we receive your item, we will inspect it and notify you on the status of your refund. If approved, we will initiate a refund to your credit card (or original method of payment). You will receive the credit within a certain amount of days, depending on your card issuer's policies
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptas inventore accusamus odit, beatae saepe pariatur?
-                Quisquam obcaecati culpa modi commodi quam. Quibusdam sequi
-                distinctio perferendis accusantium! Nam eaque vitae
-                exercitationem!
+                Specify that items must be in original packaging and unused
               </p>
               <span>
                 <p>RETURNS POLICY:</p>
               </span>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
-                perspiciatis error, rem ratione repellendus recusandae porro
-                praesentium iusto deserunt consequuntur accusamus libero
-                obcaecati, nam ex possimus sunt iste debitis animi?
+                We offer a pick-up facility for locations which are serviceable by our logistics partners. Our logistics partner will pick up the return package in 2 - 5 business days from the date the request was placed.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptas inventore accusamus odit, beatae saepe pariatur?
-                Quisquam obcaecati culpa modi commodi quam. Quibusdam sequi
-                distinctio perferendis accusantium! Nam eaque vitae
-                exercitationem!
+                We are committed to ensuring a 100% Purchase Protection to customers by offering them genuine products, robust & secure payment gateways and easy returns for items purchased on Voomka.in
               </p>
             </div>
 
@@ -66,13 +52,10 @@ function RefundPolicy() {
               </p>
               <p>
                 If you still have issues with shipping, please email us at
-                sudhanshugaikwad517@gmail.com or call customer care at
-                72197745613, we would be more than happy to help!
+                support@voomka.in or call customer care , we would be more than happy to help!
               </p>
               <p>
-                To return your product, you should mail your product to: Shop
-                No. 712, Babylon Capital, VIP Square, VIP Road, Jivan Vihar,
-                Raipur, Chhatisgarh, 492001, India.
+                To return your product, you should mail your product to address given in contact us page.
               </p>
               <p>
                 You will be responsible for paying for your own shipping costs

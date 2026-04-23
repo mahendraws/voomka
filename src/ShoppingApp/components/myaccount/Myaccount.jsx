@@ -33,7 +33,7 @@ function Myaccount() {
                     </div>
                     <div class="user-info">
                         <h6 class="user-name">{cust_name}</h6>
-                        <p class="user-phone">8485856253</p>
+                        <p class="user-phone">-</p>
                     </div>
                 </div>
             }
@@ -70,7 +70,7 @@ function Myaccount() {
 
                     : ""}
 
-                <div class="menu-item">
+                <div class="menu-item" onClick={() => { navigate("/Contact") }}>
                     <div class="menu-icon">
                         <Phone />
                     </div>
@@ -84,7 +84,7 @@ function Myaccount() {
                 </div>
 
 
-
+                {/*
                 <div class="menu-item">
                     <div class="menu-icon">
                         <CircleEllipsis />
@@ -111,7 +111,10 @@ function Myaccount() {
                     </div>
                 </div>
 
-                <div class="menu-item">
+*/}
+
+
+                <div class="menu-item" onClick={() => { navigate("/Termsandconditions") }}>
                     <div class="menu-icon">
                         <FileText />
                     </div>
@@ -125,7 +128,7 @@ function Myaccount() {
                 </div>
 
 
-                <div class="menu-item">
+                <div class="menu-item" onClick={() => { navigate("/PrivacyPolicy") }}>
                     <div class="menu-icon">
                         <HatGlasses />
                     </div>
@@ -138,7 +141,7 @@ function Myaccount() {
                     </div>
                 </div>
 
-                <div class="menu-item">
+                <div class="menu-item" onClick={() => { navigate("/ReturnPolicy") }}>
                     <div class="menu-icon">
                         <CornerDownLeft />
                     </div>
