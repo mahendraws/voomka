@@ -69,9 +69,9 @@ function Footter() {
           <div className="contact-main">
             <span className="d-flex justify-content-start">
               <img src={phone} alt="" />
-              <p className="mx-2">COntact Us</p>
+              <p className="mx-2">Contact Us</p>
             </span>
-            <p>+ 91 7887769868</p>
+            <p></p>
           </div>
           <div className="Email-main">
             <span className="d-flex justify-content-start">
